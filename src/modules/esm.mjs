@@ -11,7 +11,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const random = Math.random();
-console.log(random);
 let unknownObject;
 
 if (random > 0.5) {
