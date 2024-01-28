@@ -1,4 +1,3 @@
-// Calculate a rolling hash.
 import { createReadStream } from "fs";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "url";
