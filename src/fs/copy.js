@@ -1,7 +1,6 @@
 import { readdir, promises } from "fs";
-import { resolve } from "path";
+import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
 
 const fsPromises = promises;
 
