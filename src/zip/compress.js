@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 const compress = async () => {
     const gzip = createGzip()
     const filePath = join(__dirname, "files", "fileToCompress.txt");
-    const archivedFilePath = join(__dirname, "files", "compressed.txt.gz");
+    const archivedFilePath = join(__dirname, "files", "archive.gz");
     const inp = createReadStream(filePath);
     const out = createWriteStream(archivedFilePath);
 
